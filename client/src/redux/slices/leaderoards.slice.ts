@@ -20,7 +20,7 @@ interface leaderboardsState {
 // create slice
 
 const name = "leaderboards";
-const API_URL = "http://localhost:4000"; // "https://api1.callyzer.co/api//v2/call-log/"; // "http://localhost:8080"; //
+const API_URL = "https://sws-leaderboards-server.vercel.app"; // "http://localhost:4000";
 const initialState: leaderboardsState = createInitialState();
 const reducers = createReducers();
 const extraActions = createExtraActions();
