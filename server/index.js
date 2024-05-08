@@ -33,7 +33,6 @@ app.get("/leaderboards_weekly", async function (requestGet, response, next) {
       "Content-Length": postData.length,
       authorization: `Bearer ${envConfig.ACCESS_TOKEN}`,
     },
-    timeout: 1000, // in ms
   };
 
   var req = https.request(
@@ -91,7 +90,6 @@ app.get("/leaderboards_daily", async function (requestGet, response, next) {
       "Content-Length": postData.length,
       authorization: `Bearer ${envConfig.ACCESS_TOKEN}`,
     },
-    timeout: 1000, // in ms
   };
 
   var req = https.request(
