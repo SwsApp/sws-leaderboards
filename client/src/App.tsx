@@ -6,7 +6,7 @@ import { motion, usePresence, AnimatePresence } from "framer-motion";
 import "./App.css";
 import { AppDispatch } from "./redux";
 
-const PAGE_LENGTH = 10;
+const PAGE_LENGTH = 5;
 
 function App() {
   const dispatch: AppDispatch = useDispatch();
